@@ -15,6 +15,7 @@ function App(): React.JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
+                <h1>This is my Website</h1>
                 UD CISC275 with React Hooks and TypeScript ~ Praneet Bandla
             </header>
             <hr></hr>
