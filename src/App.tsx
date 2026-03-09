@@ -17,6 +17,12 @@ function App(): React.JSX.Element {
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload. Hello World
             </p>
+            <ChangeType />
+            <Counter />
+            <CycleHoliday />
+            <RevealAnswer />
+            <StartAttempt />
+            <TwoDice />
         </div>
     );
 }
