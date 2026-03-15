@@ -54,6 +54,22 @@ function App(): React.JSX.Element {
             <ChangeType></ChangeType>
             <hr />
             <CycleHoliday></CycleHoliday>
+            <hr />
+            {/* --- Form Components Section --- */}
+            <div>
+                <CheckAnswer expectedAnswer="react"></CheckAnswer>
+                <hr />
+                <GiveAttempts></GiveAttempts>
+                <hr />
+                <EditMode></EditMode>
+                <hr />
+                <ChangeColor></ChangeColor>
+                <hr />
+                <MultipleChoiceQuestion
+                    options={["red", "green", "blue"]}
+                    expectedAnswer="green"
+                />
+            </div>
         </div>
     );
 }
